@@ -1,0 +1,54 @@
+body{
+    margin:0;
+    font-family: Arial black,sans-serif;
+}
+.menu-lateral{
+    position:fixed;
+    top:0;
+    left:0;
+    width:200px;
+    height:100%;
+    background-color:rgb(0, 0, 0);
+    padding:20px;
+    box-shadow:-2px 0 5px rgba(0,0,0,0.5);
+}
+.menu-lateral h3{
+    color:orange;
+    text-align:center;
+    font-family:arial;
+}
+.menu-lateral a{
+    color:orange;
+    text-decoration:none;
+    display:block;
+    margin:10px 0;
+    font-size:16px;
+    padding:10px;
+    border-radius:5px;
+    transition: background-color 0.3s;
+}
+.menu-lateral a:hover{
+    color:white;
+    background-color:orange;
+    transform:scale(1.05);
+    transition: transform 0.3s;
+}
+.menu-lateral ul{
+    color:orange;
+    font-family:arial;
+}
+.contenido{
+    margin-left:240px;
+    padding:40px;
+}
+.foto{
+    width:50%;
+    height:auto;
+    border-radius:16px;
+    display:block;
+    margin:auto;
+}
+.foto:hover{
+    transform: scale(1.05);
+    transition: transform 0.3s;
+}
